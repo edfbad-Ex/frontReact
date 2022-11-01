@@ -1,0 +1,17 @@
+.Dashboard-Container{
+
+    width: 100%;
+    background-color:  rgb(246, 248, 251);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Dashboard-Container-Table{
+
+    margin-top: 100px;
+    width: 90%;
+
+}
+

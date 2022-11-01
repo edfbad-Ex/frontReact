@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+
+.Reset-Container{
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 248, 251);
+    color: white;
+    font-family: "Zen Dots", sans-serif;
+    
+}
+
+.Reset-Container-Form{
+
+    width: 550px;
+    height:400px;
+    background-color: white;
+    box-shadow: rgb(159 162 191 / 18%) 0px 2px 3px, rgb(159 162 191 / 32%) 0px 1px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 8px;
+
+}
+
+.Reset-Container-Form-Child:nth-child(1){
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+
+}
+
+.Reset-Container-Form-Child:nth-child(2){
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+
+}
+
+.Reset-Container-Form-Child:nth-child(3){
+
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.Reset-Container-Form-Child:nth-child(1) > .Reset-Container-Form-Child-Circle{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(85, 105, 255);
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.Reset-Container-Form-Child:nth-child(1) > .Reset-Container-Form-Child-Circle > svg{
+
+    margin-top: 20%;
+    width: 60%;
+    height: 60%;
+
+}
+.Reset-Container-Form-Child:nth-child(1) > .Reset-Container-Form-Child-Text{
+
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.Reset-Container-Form-Child:nth-child(2) > .Reset-Container-Form-Child-Input{
+
+
+    margin-top: 20px;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border:  1px solid rgb(230, 240, 255);
+    border-radius: 4px;
+    color: black;
+    padding-left: 20px;
+
+
+}
+
+
+.Reset-Container-Form-Child:nth-child(2) > .Reset-Container-Form-Child-Input::placeholder{
+
+    margin: 16px 0px 0px 0px;
+    font-size: 14px;
+    position: absolute;
+    font-weight: 500;
+    font-family: "Zen Dots", sans-serif;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.671);
+    transition: ease-in-out 200ms;
+
+}
+
+.Reset-Container-Form-Child:nth-child(2) > .Reset-Container-Form-Child-Input:hover{
+
+    border:  1px solid rgb(85, 105, 255);
+    transition: ease-in-out 200ms;
+
+}
+
+.Reset-Container-Form-Child:nth-child(2) > .Reset-Container-Form-Child-Input:focus{
+
+    border:  1px solid #90caf9;
+    transition: ease-in-out 200ms;
+
+}
+
+.Reset-Container-Form-Child:nth-child(3) > .Reset-Container-Form-Child-Button{
+
+    margin-top: 20px;
+    outline: none;
+    width: 100%;
+    height: 38px;
+    background-color: rgb(85, 105, 255);
+    border:  none;
+    border-radius: 4px;
+    color: white;
+    font-family: "Zen Dots", sans-serif;
+    transition: ease-in-out 200ms;
+
+}
+
+.Reset-Container-Form-Child:nth-child(3) > .Reset-Container-Form-Child-Button:hover{
+
+    transition: ease-in-out 200ms;
+    opacity: 0.8;
+
+}
+
+/*placeholder custom*/
+#placeholder1{
+
+    position: absolute;
+    transform: scale(0.65);
+    margin-left: -340px;
+    margin-top: 5px;
+    background-color:white;
+    padding: 5px;
+    color: rgb(85, 105, 255);
+    transition: ease-in-out 200ms;
+    border-radius: 4px;
+
+}
